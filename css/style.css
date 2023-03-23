@@ -1,0 +1,34 @@
+body {
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+table {
+    border: solid 1px black;
+
+}
+
+th {
+    text-align: center;
+    border: solid 1px black;
+    padding: 10px;
+    background-color: burlywood;
+}
+
+td {
+    text-align: center;
+    border: solid 1px black;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: antiquewhite;
+}
+
+tr:nth-child(odd) {
+    background-color: bisque;
+}
